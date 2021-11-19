@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'basic-project';
+  tabSelected:string = 'recipes';
+
+  changeTab(tab:string){
+    this.tabSelected = tab;
+  }
+
 }
